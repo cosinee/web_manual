@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://cosinee.github.io/web_manual/</loc>
+         <lastmod>2025-01-31</lastmod>
+    </url>
+    <url>
+         <loc>https://cosinee.github.io/web_manual/gantry-move/</loc>
+         <lastmod>2025-01-31</lastmod>
+    </url>
+    <url>
+         <loc>https://cosinee.github.io/web_manual/home-search/</loc>
+         <lastmod>2025-01-31</lastmod>
+    </url>
+    <url>
+         <loc>https://cosinee.github.io/web_manual/interpolation-move/</loc>
+         <lastmod>2025-01-31</lastmod>
+    </url>
+    <url>
+         <loc>https://cosinee.github.io/web_manual/multi-move/</loc>
+         <lastmod>2025-01-31</lastmod>
+    </url>
+    <url>
+         <loc>https://cosinee.github.io/web_manual/override-move/</loc>
+         <lastmod>2025-01-31</lastmod>
+    </url>
+    <url>
+         <loc>https://cosinee.github.io/web_manual/single-move/</loc>
+         <lastmod>2025-01-31</lastmod>
+    </url>
+    <url>
+         <loc>https://cosinee.github.io/web_manual/sync-move/</loc>
+         <lastmod>2025-01-31</lastmod>
+    </url>
+</urlset>
