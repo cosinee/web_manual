@@ -1,445 +1,116 @@
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://cosinee.github.io/web_manual/single-move/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>단축 구동 - AXM Library Manual 2.0</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-        <link rel="canonical" href="https://cosinee.github.io/web_manual/single-move/">
-      
-      
-        <link rel="prev" href="..">
-      
-      
-        <link rel="next" href="../home-search/">
-      
-      
-      <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\ub2e8\ucd95 \uad6c\ub3d9";
+        var mkdocs_page_input_path = "single-move.md";
+        var mkdocs_page_url = "/web_manual/single-move/";
+      </script>
     
-    
-      
-        <title>Single Move - AXM Library Manual 3.0</title>
-      
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
-      
-      
-
-
-    
-    
-      
-    
-    
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
-    
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
-
-    
-    
-    
-   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+ <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
-    .gslide-image img { background: white; }
-    .gscrollbar-fixer { padding-right: 15px; }
-    .gdesc-inner { font-size: 0.75rem; }
-    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
-  
-  
-    <body dir="ltr">
-  
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#single-move" class="md-skip">
-          Skip to content
+    .gslide-image img { background: white; }</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> AXM Library Manual 2.0
         </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-    
-      
+      </div>
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="AXM Library Manual 3.0" class="md-header__button md-logo" aria-label="AXM Library Manual 3.0" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            AXM Library Manual 3.0
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Single Move
-            
-          </span>
-        </div>
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">개요</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">단축 구동</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#1">1. 위치 구동</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#11-axmmovepos">1.1 AxmMovePos</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#12-axmmovestartpos">1.2 AxmMoveStartPos</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2">2. 속도 구동</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3">3. 신호 검색 구동</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#4">4. 원점 검색 구동</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../multi-move/">다축 구동</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../home-search/">홈 검색 구동</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../override-move/">오버라이드 구동</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../interpolation-move/">보간 구동</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../sync-move/">동기 구동</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../gantry-move/">겐트리 구동</a>
+                </li>
+              </ul>
       </div>
     </div>
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-    
-    
-    
-    
-  </nav>
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="AXM Library Manual 3.0" class="md-nav__button md-logo" aria-label="AXM Library Manual 3.0" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    AXM Library Manual 3.0
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Summary
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Single Move
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Single Move
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 위치 구동
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="1. 위치 구동">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#11-axmmovepos" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.1 AxmMovePos
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#12-axmmovestartpos" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.2 AxmMoveStartPos
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 속도 구동
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 신호 검색 구동
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 원점 검색 구동
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
 
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../home-search/" class="md-nav__link">
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">AXM Library Manual 2.0</a>
         
-  
-  <span class="md-ellipsis">
-    Home Search
-  </span>
-  
-
-      </a>
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">단축 구동</li>
+    <li class="wy-breadcrumbs-aside">
     </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../gantry-move/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gantry Mode
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
   </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 위치 구동
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="1. 위치 구동">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#11-axmmovepos" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.1 AxmMovePos
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#12-axmmovestartpos" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.2 AxmMoveStartPos
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 속도 구동
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 신호 검색 구동
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 원점 검색 구동
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
-                  
-
-
-<h1 id="single-move">단축 구동 (Single Move)</h1>
+                <h1 id="single-move">단축 구동 (Single Move)</h1>
 <blockquote>
 <p>모션 구동의 가장 기본이 되는 구동은 단축 구동이다.<br />
 단축 구동은 크게 위치 구동(Position Drive), 속도 구동(Velocity Drive),<br />
@@ -454,41 +125,39 @@ AxmMoveStartPos 함수는 시점 탈출 함수로 동작이 시작되고 바로 
 <h3 id="11-axmmovepos">1.1 <strong>AxmMovePos</strong></h3>
 <p>좌표계와 속도 프로파일을 따로 설정하는 함수를 사용하고, 이동량, 속도, 가속도를 설정한다.<br />
 아래와 같이 대칭 프로파일 구동일 경우 입력한 감속도는 무시되며 입력한 가속도가 가감속 시 적용된다.</p>
-<div class="highlight"><pre><span></span><code><span class="c1">//0축을 절대 좌표로 100 위치까지 대칭 S자 구동 모드로 이동 (속도 100, 가속도 200)  </span>
-<span class="kt">long</span><span class="w"> </span><span class="n">lAxisNo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w">  </span>
-<span class="n">DWORD</span><span class="w"> </span><span class="n">uAbsRelMode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w">  </span>
-<span class="n">DWORD</span><span class="w"> </span><span class="n">uProfileMode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w">  </span>
-<span class="n">AxmMotSetAbsRelMode</span><span class="p">(</span><span class="n">lAxisNo</span><span class="p">,</span><span class="w"> </span><span class="n">uAbsRelMode</span><span class="p">);</span><span class="w">  </span>
-<span class="n">AxmMotSetProfileMode</span><span class="p">(</span><span class="n">lAxisNo</span><span class="p">,</span><span class="w"> </span><span class="n">uProfileMode</span><span class="p">);</span><span class="w">  </span>
-<span class="kt">double</span><span class="w"> </span><span class="n">dPosition</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span><span class="w">  </span>
-<span class="kt">double</span><span class="w"> </span><span class="n">dMaxVelocity</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span><span class="w">  </span>
-<span class="kt">double</span><span class="w"> </span><span class="n">dMaxAccel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">200</span><span class="p">;</span><span class="w">  </span>
-<span class="kt">double</span><span class="w"> </span><span class="n">dMaxDecel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">200</span><span class="p">;</span><span class="w">  </span>
-<span class="n">AxmMovePos</span><span class="p">(</span><span class="n">lAxisNo</span><span class="p">,</span><span class="w"> </span><span class="n">dPosition</span><span class="p">,</span><span class="w"> </span><span class="n">dMaxVelocity</span><span class="p">,</span><span class="w"> </span><span class="n">dMaxAccel</span><span class="p">,</span><span class="w"> </span><span class="n">dMaxDecel</span><span class="p">);</span><span class="w">  </span>
-</code></pre></div>
+<pre class="highlight"><code class="language-cpp">//0축을 절대 좌표로 100 위치까지 대칭 S자 구동 모드로 이동 (속도 100, 가속도 200)  
+long lAxisNo = 0;  
+DWORD uAbsRelMode = 0;  
+DWORD uProfileMode = 3;  
+AxmMotSetAbsRelMode(lAxisNo, uAbsRelMode);  
+AxmMotSetProfileMode(lAxisNo, uProfileMode);  
+double dPosition = 100;  
+double dMaxVelocity = 100;  
+double dMaxAccel = 200;  
+double dMaxDecel = 200;  
+AxmMovePos(lAxisNo, dPosition, dMaxVelocity, dMaxAccel, dMaxDecel);  </code></pre>
 <h3 id="12-axmmovestartpos">1.2 <strong>AxmMoveStartPos</strong></h3>
 <p>시점 탈출이므로 구동이 시작되면 바로 다음 함수가 실행되는데, 만약 다음 함수가 구동 함수라면 반드시 
 <em>AxmStatusReadInMotion</em> 함수를 이용하여 구동 여부를 확인하고 구동 종료 후 다음 구동 명령을 수행해야 한다.<br />
 구동 중일 때는 모든 모션 구동 명령이 에러를 반환하고 실행되지 않기 때문이다.<br />
 여기서 <em>AxmStatusReadInMotion</em> 함수는 모션 구동 중이면 TRUE, 구동 중이 아니면 FALSE를 반환한다.</p>
-<div class="highlight"><pre><span></span><code><span class="c1">//0축을 상대 좌표로 100 위치까지 비대칭 S자 구동 모드로 이동 (속도 100, 가속도 200, 감속도 100)</span>
-<span class="kt">long</span><span class="w"> </span><span class="n">lAxisNo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-<span class="n">DWORD</span><span class="w"> </span><span class="n">uAbsRelMode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
-<span class="n">DWORD</span><span class="w"> </span><span class="n">uProfileMode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span>
-<span class="n">AxmMotSetAbsRelMode</span><span class="p">(</span><span class="n">lAxisNo</span><span class="p">,</span><span class="w"> </span><span class="n">uAbsRelMode</span><span class="p">);</span>
-<span class="n">AxmMotSetProfileMode</span><span class="p">(</span><span class="n">lAxisNo</span><span class="p">,</span><span class="w"> </span><span class="n">uProfileMode</span><span class="p">);</span>
-<span class="kt">double</span><span class="w"> </span><span class="n">dPosition</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span>
-<span class="kt">double</span><span class="w"> </span><span class="n">dMaxVelocity</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span>
-<span class="kt">double</span><span class="w"> </span><span class="n">dMaxAccel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">200</span><span class="p">;</span>
-<span class="kt">double</span><span class="w"> </span><span class="n">dMaxDecel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span>
-<span class="n">AxmMoveStartPos</span><span class="p">(</span><span class="n">lAxisNo</span><span class="p">,</span><span class="w"> </span><span class="n">dPosition</span><span class="p">,</span><span class="w"> </span><span class="n">dMaxVelocity</span><span class="p">,</span><span class="w"> </span><span class="n">dMaxAccel</span><span class="p">,</span><span class="w"> </span><span class="n">dMaxDecel</span><span class="p">);</span>
-<span class="n">DWORD</span><span class="w"> </span><span class="n">uStatus</span><span class="p">;</span>
+<pre class="highlight"><code class="language-cpp">//0축을 상대 좌표로 100 위치까지 비대칭 S자 구동 모드로 이동 (속도 100, 가속도 200, 감속도 100)
+long lAxisNo = 0;
+DWORD uAbsRelMode = 1;
+DWORD uProfileMode = 4;
+AxmMotSetAbsRelMode(lAxisNo, uAbsRelMode);
+AxmMotSetProfileMode(lAxisNo, uProfileMode);
+double dPosition = 100;
+double dMaxVelocity = 100;
+double dMaxAccel = 200;
+double dMaxDecel = 100;
+AxmMoveStartPos(lAxisNo, dPosition, dMaxVelocity, dMaxAccel, dMaxDecel);
+DWORD uStatus;
 
-<span class="n">AxmStatusReadInMotion</span><span class="p">(</span><span class="n">lAxisNo</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">uStatus</span><span class="p">);</span>
-<span class="k">while</span><span class="p">(</span><span class="n">uStatus</span><span class="p">){</span>
-<span class="w">    </span><span class="n">AxmStatusReadInMotion</span><span class="p">(</span><span class="n">lAxisNo</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">uStatus</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
+AxmStatusReadInMotion(lAxisNo, &amp;uStatus);
+while(uStatus){
+    AxmStatusReadInMotion(lAxisNo, &amp;uStatus);
+}</code></pre>
 <p>Motion Profile  </p>
 <p><a class="glightbox" href="../images/motionprofile_in_experiment.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Motion Profile" src="../images/motionprofile_in_experiment.png" /></a></p>
 <h2 id="2">2. 속도 구동</h2>
@@ -565,59 +234,51 @@ AxmMoveStartPos 함수는 시점 탈출 함수로 동작이 시작되고 바로 
 </tr>
 </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-
-
-
-                
-              </article>
+              
             </div>
-          
-          
-<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
-        </div>
-        
-      </main>
-      
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
-      
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="개요"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../multi-move/" class="btn btn-neutral float-right" title="다축 구동">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
   </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-      
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
-      
+      <span><a href="../multi-move/" style="color: #fcfcfc">Next &raquo;</a></span>
     
-  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
-document$.subscribe(() => { lightbox.reload() });
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 </script></body>
 </html>
