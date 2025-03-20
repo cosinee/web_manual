@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://cosinee.github.io/web_manual/sync-move/">
       
       
-        <link rel="prev" href="../interpolation-move/">
+        <link rel="prev" href="../override-move/">
       
       
         <link rel="next" href="../gantry-move/">
@@ -165,11 +165,74 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../how-to-use/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    개요
+    모션 라이브러리 사용법
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    보드 및 모듈 확인
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../in-output-signal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    입출력 설정
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../motion-parameter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    모션 파라미터 설정
     
   </span>
   
@@ -228,53 +291,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../home-search/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    홈 검색 구동
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../override-move/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     오버라이드 구동
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../interpolation-move/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    보간 구동
     
   </span>
   
@@ -300,6 +321,18 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    동기 구동
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -310,6 +343,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-electronic-gearing-egear" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 전자 기어(Electronic Gearing) 구동 (EGear)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-master-slave-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Master, Slave 구동 함수 (Link)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-electronic-cam-ecam" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 전자 캠(Electronic CAM) 구동 (ECam)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -327,6 +406,153 @@
   
   <span class="md-ellipsis">
     겐트리 구동
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advanced-move/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    고급 모션 구동
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mpg-move/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MPG 구동
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crc-set-signal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CRC 신호 설정
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../virtual-axis-map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    가상 축
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../trigger-signal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    트리거 신호 사용
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../interrupt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    인터럽트 사용
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../error-code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    에러 코드
     
   </span>
   
@@ -356,6 +582,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-electronic-gearing-egear" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 전자 기어(Electronic Gearing) 구동 (EGear)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-master-slave-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Master, Slave 구동 함수 (Link)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-electronic-cam-ecam" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 전자 캠(Electronic CAM) 구동 (ECam)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -371,7 +632,13 @@
 
 
 <h1 id="sync-move">동기 구동 (Sync Move)</h1>
-<p>작성</p>
+<p>개요</p>
+<h2 id="1-electronic-gearing-egear">1. 전자 기어(Electronic Gearing) 구동 (EGear)</h2>
+<p>설명</p>
+<h2 id="2-master-slave-link">2. Master, Slave 구동 함수 (Link)</h2>
+<p>설명</p>
+<h2 id="3-electronic-cam-ecam">3. 전자 캠(Electronic CAM) 구동 (ECam)</h2>
+<p>설명</p>
 
 
 
