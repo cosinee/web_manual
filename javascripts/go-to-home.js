@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     let homeButton = document.createElement("button");
-    homeButton.innerHTML = "bbbb";
+    homeButton.innerHTML = "cccc";
     homeButton.id = "goToHome";
     document.body.appendChild(homeButton);
 
