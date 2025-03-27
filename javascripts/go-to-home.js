@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     let homeButton = document.createElement("button");
-    homeButton.innerHTML = "aaaa";
+    homeButton.innerHTML = "bbbb";
     homeButton.id = "goToHome";
     document.body.appendChild(homeButton);
 
@@ -16,13 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
     homeButton.style.cursor = "pointer";
 
     homeButton.addEventListener("click", function () {
-        window.location.href = "https://cosinee.github.io/web_manual/";
+        //window.location.href = "https://cosinee.github.io/web_manual/";
 
         //window.location.href = "/index.html";
 
         //window.location.href = "/";
 
-        //window.location.href = document.querySelector("link[rel='canonical']").href;
+        window.location.href = document.querySelector("link[rel='canonical']").href;
 
         //let baseUrl = document.querySelector("link[rel='canonical']")?.href || "/web_manual/";
         //window.location.href = baseUrl;
