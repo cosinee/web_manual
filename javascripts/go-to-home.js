@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
     homeButton.style.cursor = "pointer";
 
     homeButton.addEventListener("click", function () {
-        window.location.href = "https://cosinee.github.io/web_manual/";
-        //window.location.href = "/";
+        window.location.href = "/";
     });
 });
